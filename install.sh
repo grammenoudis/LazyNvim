@@ -23,7 +23,7 @@ rename_Dir() {
 
 clone() {
   echo "Cloning..."
-  git clone https://github.com/grammenoudis/neovim ~/.config/nvim
+  git clone https://github.com/grammenoudis/LazyNvim ~/.config/nvim
   nvim +PackerSync
 }
 
