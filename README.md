@@ -14,6 +14,7 @@ curl -s https://raw.githubusercontent.com/grammenoudis/LazyNvim/main/install.sh 
 
 **OR**
 Install it manually by:
+
 -Cloning the repository
 
 ```bash
