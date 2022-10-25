@@ -1,3 +1,11 @@
+<div align="center">
+	<h1> LazyNvim </h1>
+	<span> • </span>
+	<a href="https://github.com/grammenoudis/LazyNvimNvim/#installation">📦 Installation</a>
+  <span> • </span>
+	<a href="https://github.com/grammenoudis/LazyNvimNvim/wiki">📚 Wiki</a>
+</div>
+
 ## Preview
 
 ![LazyNvim Dashboard](https://i.imgur.com/uPWPPyP.png)
