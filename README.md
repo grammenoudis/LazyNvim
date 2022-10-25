@@ -15,13 +15,13 @@ curl -s https://raw.githubusercontent.com/grammenoudis/LazyNvim/main/install.sh 
 **OR**
 Install it manually by:
 
--Cloning the repository
+1. Cloning the repository
 
 ```bash
 git clone https://github.com/grammenoudis/LazyNvim.git
 ```
 
--Installing the Plugins
+2. Installing the Plugins
 
 ```bash
 nvim +PackerSync
