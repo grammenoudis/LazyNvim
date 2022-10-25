@@ -1,6 +1,6 @@
 ## Preview
 
-![LazyNvim Dashboard](https://i.imgur.com/haZKTwt.png)
+![LazyNvim Dashboard](https://i.imgur.com/uPWPPyP.png)
 ![LazyNvim Demo](https://i.imgur.com/9ftNxYJ.png)
 
 ## Installation
