@@ -1,9 +1,9 @@
 <div align="center">
 	<h1> LazyNvim </h1>
 	<span> • </span>
-	<a href="https://github.com/grammenoudis/LazyNvimNvim/#installation">📦 Installation</a>
+	<a href="https://github.com/grammenoudis/LazyNvim/#installation">📦 Installation</a>
   <span> • </span>
-	<a href="https://github.com/grammenoudis/LazyNvimNvim/wiki">📚 Wiki</a>
+	<a href="https://github.com/grammenoudis/LazyNvim/wiki">📚 Wiki</a>
 </div>
 
 ## Preview
