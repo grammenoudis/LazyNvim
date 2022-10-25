@@ -1,3 +1,7 @@
+## Preview
+
+![LazyNvim Demo](https://i.imgur.com/9ftNxYJ.png)
+
 ## Installation
 
 To **Install** neovim run this command:
