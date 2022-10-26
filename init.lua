@@ -1,7 +1,7 @@
 require('plugins')
 require('format')
 require('colorize')
-require('indent')
+-- require('indent')
 require('keymaps')
 require('settings')
 require('dashboard-config')
