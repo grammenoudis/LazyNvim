@@ -8,6 +8,7 @@ vim.cmd [[
 
 return require('packer').startup(function(use)
 	use { 'wbthomason/packer.nvim' }
+	use { 'rcarriga/nvim-notify' }
 	use {
 		"akinsho/toggleterm.nvim",
 		tag = '*',
