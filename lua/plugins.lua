@@ -32,7 +32,24 @@ return require('packer').startup(function(use)
 		end
 	}
 	use { "nvim-telescope/telescope-file-browser.nvim" }
-	use { 'nvim-treesitter/nvim-treesitter', run = ':TSUpdate', event = 'BufWinEnter' }
+	use {
+		'nvim-treesitter/nvim-treesitter',
+		run = ':TSUpdate',
+		event = 'BufWinEnter',
+		config = function()
+			require 'nvim-treesitter.configs'.setup {
+				autotag = { enable = true },
+				sync_install = true,
+				auto_install = true,
+				highlight = {
+					enable = true,
+					disable = { "c", "rust" },
+
+					additional_vim_regex_highlighting = { 'org' }
+				}
+			}
+		end
+	}
 	use { 'folke/tokyonight.nvim' }
 	use { 'jose-elias-alvarez/null-ls.nvim' }
 	use {
@@ -81,7 +98,6 @@ return require('packer').startup(function(use)
 
 	use {
 		"L3MON4D3/LuaSnip",
-		-- tag = "v<CurrentMajor>.*",
 		after = "nvim-cmp",
 		config = function()
 
