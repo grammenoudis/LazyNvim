@@ -8,6 +8,7 @@ vim.cmd [[
 
 return require('packer').startup(function(use)
 	use { 'wbthomason/packer.nvim' }
+	use({ "glepnir/lspsaga.nvim", branch = "main" })
 	use { 'kdheepak/lazygit.nvim' }
 	use { 'rcarriga/nvim-notify' }
 	use {
