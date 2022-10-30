@@ -8,6 +8,7 @@ require('code_runner').setup({
 		javascript = "cd $dir && npm start",
 		typescriptreact = "cd $dir && npm run dev",
 		javascriptreact = "cd $dir && npm run dev",
-		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt"
+		rust = "cd $dir && rustc $fileName && $dir/$fileNameWithoutExt",
+		cpp = "cd $dir && g++ $fileName && ./a.out"
 	}
 })
