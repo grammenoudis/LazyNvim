@@ -7,6 +7,8 @@ vim.cmd [[
 ]]
 
 return require('packer').startup(function(use)
+	use { 'stevearc/overseer.nvim' }
+	use { 'stevearc/dressing.nvim' }
 	use { 'wbthomason/packer.nvim' }
 	use({ "glepnir/lspsaga.nvim", branch = "main" })
 	use {
