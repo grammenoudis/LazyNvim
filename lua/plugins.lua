@@ -8,6 +8,16 @@ vim.cmd [[
 
 return require('packer').startup(function(use)
 	use { 'stevearc/overseer.nvim' }
+	use {
+		"catppuccin/nvim",
+		as = "catppuccin",
+		config = function()
+			require("catppuccin").setup {
+				flavour = "macchiato" -- mocha, macchiato, frappe, latte
+			}
+			vim.api.nvim_command "colorscheme catppuccin"
+		end
+	}
 	use { 'stevearc/dressing.nvim' }
 	use { 'wbthomason/packer.nvim' }
 	use({ "glepnir/lspsaga.nvim", branch = "main" })
@@ -141,4 +151,5 @@ return require('packer').startup(function(use)
 			require('gitsigns').setup()
 		end
 	}
+
 end)
