@@ -35,7 +35,7 @@ db.custom_center = {
 	}, {
 		icon = '🧰  ',
 		desc = 'Open ~/.config/nvim/                    ',
-		action = 'Telescope dotfiles path=' .. home .. '/.dotfiles',
+		action = 'e' .. home .. '/.dotfiles',
 		shortcut = 'SPC f p'
 	}
 }

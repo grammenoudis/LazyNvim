@@ -8,6 +8,7 @@ vim.cmd [[
 
 return require('packer').startup(function(use)
 	use { 'stevearc/overseer.nvim' }
+	use { 'CRAG666/code_runner.nvim', requires = 'nvim-lua/plenary.nvim' }
 	use {
 		"catppuccin/nvim",
 		as = "catppuccin",
