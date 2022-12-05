@@ -79,7 +79,7 @@ cmp.setup.cmdline(':', {
 
 local capabilities = vim.lsp.protocol.make_client_capabilities()
 capabilities = require("cmp_nvim_lsp").default_capabilities(capabilities)
-
+capabilities.offsetEncoding = 'utf-8'
 -- See :help mason-lspconfig-dynamic-server-setup
 require('mason-lspconfig').setup_handlers({
   function(server)
