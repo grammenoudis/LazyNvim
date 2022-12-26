@@ -76,6 +76,7 @@ return require('packer').startup(function(use)
 				autotag = { enable = true },
 				sync_install = true,
 				auto_install = true,
+				indent = { enable = true },
 				highlight = {
 					enable = true,
 					disable = { "c", "rust" },
