@@ -1,5 +1,3 @@
-require('overseer').setup({ templates = { "builtin", "user.cpp_build" } })
-
 require('code_runner').setup({
 	filetype = {
 		java = "cd $dir && javac $fileName && java $fileNameWithoutExt",
